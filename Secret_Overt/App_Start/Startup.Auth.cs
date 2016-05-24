@@ -50,13 +50,13 @@ namespace Secret_Overt
             //    clientId: "",
             //    clientSecret: "");
 
-            //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+            app.UseTwitterAuthentication(
+               consumerKey: "yjUDtVNhMXOXSbMUyRhj4f0X2",
+               consumerSecret: "");
 
             app.UseFacebookAuthentication(
                appId: "1605707196423801",
-               appSecret: "f28cf9b94f5374fcbeb9c1f742bf2824");
+               appSecret: "");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
